@@ -1,0 +1,49 @@
+$baseHeight: 600px;
+#heart{
+  height: $baseHeight;
+  -webkit-animation: BEAT 1.3s infinite; /* Safari 4+ */
+  -moz-animation:    BEAT 5s infinite; /* Fx 5+ */
+  -o-animation:      BEAT 5s infinite; /* Opera 12+ */
+  animation:         BEAT 5s infinite;
+}
+
+
+@-webkit-keyframes BEAT {
+  0%   { height: $baseHeight; }
+  20%   { height: $baseHeight; }
+  37%   { height: $baseHeight*1.20; }
+  47%   { height: $baseHeight; }
+  54%   { height: $baseHeight*1.10; }
+  61%   { height: $baseHeight; }
+  100%   { height: $baseHeight; }
+}
+
+@-moz-keyframes BEAT {
+ 0%   { height: $baseHeight; }
+  20%   { height: $baseHeight; }
+  37%   { height: $baseHeight*1.20; }
+  47%   { height: $baseHeight; }
+  54%   { height: $baseHeight*1.10; }
+  61%   { height: $baseHeight; }
+  100%   { height: $baseHeight; }
+}
+
+@-o-keyframes BEAT {
+ 0%   { height: $baseHeight; }
+  20%   { height: $baseHeight; }
+  37%   { height: $baseHeight*1.20; }
+  47%   { height: $baseHeight; }
+  54%   { height: $baseHeight*1.10; }
+  61%   { height: $baseHeight; }
+  100%   { height: $baseHeight; }
+}
+
+@keyframes BEAT {
+ 0%   { height: $baseHeight; }
+  20%   { height: $baseHeight; }
+  37%   { height: $baseHeight*1.20; }
+  47%   { height: $baseHeight; }
+  54%   { height: $baseHeight*1.10; }
+  61%   { height: $baseHeight; }
+  100%   { height: $baseHeight; }
+}
